@@ -1,5 +1,6 @@
 
 import java.util.*;
+import java.util.concurrent.locks.Condition;
 
 public class day_1 {
     public static void main(String[] args) {
@@ -14,7 +15,7 @@ public class day_1 {
         System.out.println("*\n**\n***\n****");
         // variable
         String name = "tony stark";
-        int age =25;
+        int age_of_person=25;
         double price=45.32;
         int a = 25;
         int b = 15;
@@ -26,7 +27,7 @@ public class day_1 {
         System.out.println(sub);
         System.out.println(name);
         System.out.println(price);
-        System.out.println(age);
+        System.out.println(age_of_person);
         System.out.println(cal1);
         System.out.println(cal2);
         // intput
@@ -34,5 +35,26 @@ public class day_1 {
         // String name_in = sc.next();
         String name_in = sc.nextLine();
         System.out.println(name_in);
+
+
+        // Condition Statements
+        int age = sc.nextInt();
+        if(age>25){
+            System.out.println("Valid age");
+        }
+        else{
+            System.out.println("Invalid age");
+        }
+
+        int num = sc.nextInt();
+        if(num%2!=0){
+            System.out.println("Odd");
+        }
+        else if(num%2==0){
+            System.out.println("Even");
+        }
+        else{
+            System.out.println("Error");
+        }
     }
 }
