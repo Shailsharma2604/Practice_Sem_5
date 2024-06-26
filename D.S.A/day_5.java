@@ -61,10 +61,5 @@ public class day_5 {
 
 
         // Palindromic Pattern
-
-        for(int i=0;i<=n;i++){
-            
-        }
-
     }
 }
