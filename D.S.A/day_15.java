@@ -27,15 +27,21 @@ public class day_15 {
         c.next=d;
         d.next=e;
         e.next=null;
+        System.out.println(a.data);
         System.out.println(a.next);
+        System.out.println(a.next.data);
         System.out.println(a);
         System.out.println(b.next);
+        System.out.println(b.next.data);
         System.out.println(b);
         System.out.println(c.next);
+        System.out.println(c.next.data);
         System.out.println(c);
         System.out.println(d.next);
+        System.out.println(d.next.data);
         System.out.println(d);
         System.out.println(e.next);
+        // System.out.println(e.next.data);
 
     }
 }
