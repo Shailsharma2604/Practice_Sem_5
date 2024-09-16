@@ -20,10 +20,11 @@ function App() {
       if (charAllowed) {
         str +="!@#$%^&*-_=+(){}[]~`"
       }
-      for (let index = 0; index < array.length; index++) {
-        const element = array[index];
-        
+      for (let i = 1; i <= array.length; i++) {
+        let char = Math.floor(Math.random()*str.length+1)
+        pass=str.charAt(char)
       }
+      setPassword(pass)
     },[length,numerAllowed,charAllowed,setPassword])
   }
   return (
