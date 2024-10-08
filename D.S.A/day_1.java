@@ -1,6 +1,6 @@
 
 import java.util.*;
-import java.util.concurrent.locks.Condition;
+// import java.util.concurrent.locks.Condition;
 
 public class day_1 {
     public static void main(String[] args) {
